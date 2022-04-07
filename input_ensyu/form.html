@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>質問・感想フォーム</title>
+</head>
+<body>
+    <h1>質問・感想フォーム</h1>
+    <form id="form">
+        <div class="form-group">
+            <p>氏名</p><input type="text" name="name">
+        </div>
+        <div class="form-group">
+            <p>性別</p>
+            <label class="waku">
+                <input type="radio" name="sei" value="male" checked class="waku">男
+            </label>
+            <label class="waku">
+                <input type="radio" name="sei" value="female" class="waku">女
+            </label>
+        </div>
+        <div>
+            <label for="nenrei"><p>年齢</p></label>
+            <select name="nenrei">
+              <option value="0" selected>10代</option>
+              <option value="1">20代</option>
+              <option value="2">30代</option>
+              <option value="3">40代</option>
+              <option value="4">50代</option>
+              <option value="5">60代</option>
+              <option value="6">70代</option>
+              <option value="7">80代</option>
+              <option value="8">90代</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label><p>今後見てみたいレシピ</p></label>
+            <label class="waku">
+              <input type="checkbox" name="recipe" value="wasyoku">和食
+            </label>
+            <label class="waku">
+              <input type="checkbox" name="recipe" value="chuka">中華
+            </label>
+            <label class="waku">
+                <input type="checkbox" name="recipe" value="yosyoku">洋食
+            </label>
+            <label class="waku">
+                <input type="checkbox" name="recipe" value="itarian">イタリアン
+            </label>
+            <label class="waku">
+                <input type="checkbox" name="recipe" value="sui-tu">スイーツ
+            </label>
+            <label class="waku">
+                <input type="checkbox" name="recipe" value="other">その他
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="message"><p>自由コメント欄</p></label>
+            <textarea id="message" name="message" rows="3" cols="40">自由に意見を記述してください</textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn">送信</button>
+            <button type="reset" class="btn">取り消し</button>
+        </div>
+    </form>
+</body>
+</html>
