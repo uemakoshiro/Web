@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(200, 255, 255);
+}
+
+.form {
+    width: 550px;
+    height: 930px;
+    padding-left: 15px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    color: rgba(0, 150, 0, 0.5);
+    text-align: center;
+    margin-top: 15px;
+    border-bottom: 3px solid rgb(85, 85, 255);
+}
+
+h4 {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 3px solid rgb(85, 85, 255);
+}
+
+.long {
+    height: 20px;
+    width: 500px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.short {
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.tyui {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn {
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.sel {
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.texta {
+    width: 500px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+}
