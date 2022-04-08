@@ -1,0 +1,11 @@
+body {
+    background-image: url(images/bg_Argyle.jpg);
+}
+
+.font {
+    font-size: 25px;
+}
+
+.indent {
+    margin-left: 20px;
+}

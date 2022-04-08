@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(200, 255, 200);
+}
+
+.font {
+    font-size: 25px;
+}
+
+img {
+    width: 100px;
+    /* padding-left:%; */
+}
+
+.flex {
+    margin-top: 30px;
+    display: flex;
+}
+
+.text {
+    margin-left: 50px;
+    /* width: 60%; */
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.indent {
+    margin-left: 10px;
+}
+
+a {
+    font-size: 20px;
+}
