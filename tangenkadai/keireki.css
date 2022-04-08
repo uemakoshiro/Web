@@ -3,9 +3,17 @@ body {
 }
 
 .font {
-    font-size: 25px;
+    font-size:40px;
+}
+
+h1 {
+    font-size: 40px;
 }
 
 .indent {
     margin-left: 20px;
+}
+
+a {
+    font-size: 20px;
 }
